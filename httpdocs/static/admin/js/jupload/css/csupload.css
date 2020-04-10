@@ -1,0 +1,78 @@
+ 
+ div#fld_cont.clearfix{  }
+ div#fld_cont.clearfix dl {float:left; width:162px; height:220px; display:block; overflow:hidden; margin:0 3px 0 0 ; position:relative;}
+div#fld_cont.clearfix dl  dd{ background:#fff;}
+  div#fld_cont.clearfix dl  dd.dd-preview{ 	  border:1px solid #ccc;width:160px; height:120px; display:block; overflow:hidden;text-align:center; }
+  div#fld_cont.clearfix dl  dd.dd-preview p{ margin:0; padding:0; text-align:center; display:table-cell;  text-align:center; vertical-align:middle;text-align:center;}
+  div#fld_cont.clearfix dl  dd.dd-preview span.preview{vertical-align:middle; height:120px; display:block; overflow:hidden;  display:table-cell; margin:0 auto;width:160px; }
+  div#fld_cont.clearfix dl  dd.dd-preview span.preview  a{vertical-align:middle; display:block;}
+
+  div#fld_cont.clearfix dl  dd.dd-name{ display:block;height:25px; font-size:10px; padding:0 5px 0 5px; line-height:12px; text-align:center;}
+  div#fld_cont.clearfix dl  dd.dd-name p{ margin:0; padding:0; text-align:center}
+
+  div#fld_cont.clearfix dl  dd.dd-size{ height:25px; overflow:hidden;text-align:center; font-size:11px; }
+  div#fld_cont.clearfix dl  dd.dd-size p{ margin:0; padding:0; text-align:center;  font-size:11px; 	 line-height:15px;}
+  div#fld_cont.clearfix dl  dd.dd-size .progress{height:10px;}
+  
+  
+  div#fld_cont.clearfix dl  dd.dd-size.down{ height:15px;}
+  
+  div#fld_cont.clearfix dl  dd.dd-buttonset{ text-align:center; 	}
+  div#fld_cont.clearfix dl  dd.dd-buttonset button{ margin:0 auto;}
+  div#fld_cont.clearfix dl  dd.dd-buttonset button.btn.btn-danger.delete,
+  div#fld_cont.clearfix dl  dd.dd-buttonset button.btn.btn-warning.cancel{ font-size:12px; height:20px; margin:0px; color:#fff;  }
+  
+  
+  
+  textarea#postdesc{ width:570px; padding:5px; height:60px; color:#666; margin:5px 0 2px 0; font-size:12px;  }
+
+
+div.progress.progress-success.progress-striped{ margin:0; padding:0;}
+
+
+div.progress.progress-success.progress-striped{ margin:0; padding:0;}
+
+
+#uphotoDiv{ position: relative;  }
+
+#submitDiv{ width:100%; height:30px; display:block; padding:3px 0 4px 0; position: relative; }
+#submitDiv .spp1{ width:160px; height:30px; display:block; float:right;}
+.mygroupselect{ width:100px; }
+#submitDiv .spp2{ width:110px; height:30px; display:block; float:right; text-align:right}
+
+#subtmiFlsBtn{ width:90%;}
+
+.span5.fileupload-progress.fade{  height:20px; width:98%; overflow:hidden;}
+.span5.fileupload-progress.fade .progress.progress-success.progress-striped{height:20px; width:50%; float:left;}
+.span5.fileupload-progress.fade .progress-extended{height:20px; width:45%; float:right;}
+
+
+.span5.fileupload-progress.fade{ visibility:hidden; height:1px;}
+.span5.fileupload-progress.fade.in{ visibility:visible; height:20px;}
+
+
+
+/*-------------------------------------------*/
+
+.row.fileupload-buttonbar {  margin:0 auto; padding-bottom:5px; margin-bottom:5px;}
+#upload-dp{ border-bottom:1px solid #ccc; margin-bottom:10px;}
+div#myfile-list-cnt.loading{ border:0; padding:0;}
+
+div#myfile-list-cnt.loading table.table th,
+div#myfile-list-cnt.loading table.table td{ vertical-align:middle}
+
+div#fld_cont.clearfix dl  dd.dd-preview .preview{}
+div#fld_cont.clearfix dl  dd.dd-preview a img{ max-height:320px; max-width:420px; }
+
+#setsort.ui-sortable{ width:100%; margin:0; padding:0;}
+#setsort.ui-sortable li.clearfix{ list-style:none;  margin:0; padding:0;}
+
+
+
+
+
+
+
+
+
+

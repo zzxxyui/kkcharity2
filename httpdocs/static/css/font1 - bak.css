@@ -1,0 +1,88 @@
+
+
+
+/*
+ @font-face {
+	font-family: 'HelveticaNeu55';
+	src: url('Helvetica-LT-55-Roman.eot');
+  font-style: normal;
+  font-weight: 300;
+	src: local('HelveticaNeu55'), url('Helvetica-LT-55-Roman.ttf') format('truetype'), url('Helvetica-LT-55-Roman.woff') format('woff');
+}
+ 
+@font-face {
+	font-family: 'HelveticaNeu45';
+	src: url('Helvetica-LT-45Light.eot');
+  font-style: normal;
+  font-weight: 300;
+	src: local('HelveticaNeu45') format('woff'), url('Helvetica-LT-45Light.ttf') format('truetype'), url('Helvetica-LT-45Light.woff');
+}
+
+@font-face {
+	font-family: 'Helvetica95';
+	src: url('Helvetica-LT-95Black.eot');
+  font-style: normal;
+  font-weight: 300;
+	src: local('Helvetica95'), url('Helvetica-LT-95Black.ttf') format('truetype'), url('Helvetica-LT-95Black.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Helvetica75';
+	src: url('Helvetica-LT-75-Bold.eot');
+  font-style: normal;
+  font-weight: 300;
+	src: local('Helvetica75'), url('Helvetica-LT-75-Bold.ttf') format('truetype'), url('Helvetica-LT-75-Bold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Helvetica77';
+	src: url('HelveticaNeueLTStd-BdCn.eot');
+  font-style: normal;
+  font-weight: 300;
+	src: local('Helvetica77'), url('HelveticaNeueLTStd-BdCn.ttf') format('truetype'), url('HelveticaNeueLTStd-BdCn.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Helvetica77';
+	src: url('HelveticaNeueLTStd-BdCn.eot');
+  font-style: normal;
+  font-weight: 700;
+	src: local('Helvetica77'), url('HelveticaNeueLTStd-BdCn.ttf') format('truetype'), url('HelveticaNeueLTStd-BdCn.woff') format('woff');
+}
+
+
+
+
+
+
+@font-face {
+	font-family: 'HelveticaBLK';
+	src: url('HelveticaLTStd-Blk.eot');
+  font-style: normal;
+  font-weight: 700;
+	src: local('HelveticaBLK'), url('HelveticaLTStd-Blk.ttf') format('truetype'), url('HelveticaLTStd-Blk.woff') format('woff');
+}
+
+*/
+
+.mipr_tt{    font-family:"Helvetica", Arial, sans-serif, "Lucida Grande"}
+
+
+
+#banner .tt{ width:320px; height:120px; position:absolute; right:14px; top:223px; text-align:center; color:#fff; margin:0; line-height:1.1em; font-size:40px; font-weight:normal;
+ font-family: "Helvetica", Arial, sans-serif, "Lucida Grande"}
+
+ .main_h1{  font-family: "Helvetica", Arial, sans-serif, "Lucida Grande"}
+
+
+.homeBanner  .tt{  font-family: "Helvetica", Arial, sans-serif, "Lucida Grande"}
+/*
+
+*{ font-family:'HelveticaNeu55', Helvetica, Verdana,arial,Verdana,  sans-serif;     }
+body { font-family: 'HelveticaNeu55', Helvetica, Verdana,arial,Verdana,  sans-serif;  	}
+
+ 
+textarea,input,select,label{ font-family: 'HelveticaNeu55', Helvetica,   Helvetica, Verdana,arial,Verdana,  sans-serif;  }
+
+div,p,a , li,td,th{ 					 font-family:  'HelveticaNeu55', Helvetica, Helvetica, Verdana,arial,Verdana,  sans-serif;  }
+*/

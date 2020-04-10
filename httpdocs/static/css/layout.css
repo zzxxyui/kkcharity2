@@ -1,0 +1,36 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@media(max-width:1000px) {
+body {
+    overflow-x: hidden; 
+}
+}
+ 
+ 
+ 
+.list-group .list-group-item.active{ background:#0089b8;}
+  
+ 
+ 
+.text-btn {
+    color: #0089b8;
+}
+ 
+.text-primary {
+    color: #016081;
+}
+
+.text-sh-w {
+	text-shadow:0 0 4px #fff;
+}
+.text-sh-b {
+	text-shadow:0 0 4px #333;
+}
+.table.no-border td,
+.table.no-border th,
+.table.no-border{  border:0;} 
+ 

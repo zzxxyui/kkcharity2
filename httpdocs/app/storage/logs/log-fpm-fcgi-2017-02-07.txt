@@ -1,0 +1,22 @@
+[2017-02-07 09:16:08] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /var/www/vhosts/kkcharity.org/httpdocs/app/controllers/fileuploadController.php:1655
+Stack trace:
+#0 /var/www/vhosts/kkcharity.org/httpdocs/app/controllers/fileuploadController.php(1655): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/var/www/vhosts...', 1655, Array)
+#1 [internal function]: fileuploadController->savesort()
+#2 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#3 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(93): Illuminate\Routing\Controller->callAction('savesort', Array)
+#4 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(62): Illuminate\Routing\ControllerDispatcher->call(Object(fileuploadController), Object(Illuminate\Routing\Route), 'savesort')
+#5 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/Router.php(934): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'fileuploadContr...', 'savesort')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(104): call_user_func_array(Object(Closure), Array)
+#8 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1000): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/vhosts/kkcharity.org/httpdocs/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /var/www/vhosts/kkcharity.org/httpdocs/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /var/www/vhosts/kkcharity.org/httpdocs/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []

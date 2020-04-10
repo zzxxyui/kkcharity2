@@ -1,0 +1,73 @@
+  	
+@charset "UTF-8";
+
+
+*{ font-family: "SimHei", "Lucida Grande", "新細明體";    }
+
+body { font-family: "SimHei", "Lucida Grande", "新細明體";  }
+textarea,input,select,label{font-family:"SimHei", "Lucida Grande", "新細明體";    }
+
+
+p,a,th,th,ul,li { 	font-family:"SimHei", "Lucida Grande", "新細明體";    }
+
+
+a,p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:"SimHei", "Lucida Grande", "新細明體";  
+}
+
+html>body {  
+} /* Reset Base Font Size */
+body { font-family:"SimHei", "Lucida Grande", "新細明體";   
+		 
+			
+}
+
+
+
+ .main_h1{ font-family: "SimHei", "Lucida Grande", "新細明體";   font-weight:normal}
+
+.homeBanner  .tt{ 
+ font-family: "SimHei", "Lucida Grande", "新細明體";  }
+#banner .tt{  
+ font-family: "SimHei", "Lucida Grande", "新細明體";  }
+ 
+ 
+ 
+
+
+#hbanner_1.on_going .banner_inner .tt,
+#hbanner_2.project_hg .banner_inner .tt,
+#hbanner_3.sap .banner_inner .tt{color:#fff; text-align:center; font-size:40px; top:223px; }
+
+ 
+ #home_cnr ul.num li{ font-family: "SimHei", "Lucida Grande", "新細明體";  
+}
+
+
+ #home_cnr .msg{ font-size:20px
+ }
+ 
+ 
+#yearTabs .dropdown a.dropdown-toggle span#cr_mi_year,
+#yearTabs .dropdown a.dropdown-toggle span#cr_pr_year{   font-family: "SimHei", "Lucida Grande", "新細明體";  }
+
+
+#project_banner .date_cnt .zh_v1{ font-family: "SimHei", "Lucida Grande", "新細明體";   } 
+
+#project_banner .total_cnt .total_num p{ font-family: "SimHei", "Lucida Grande", "新細明體";  }
+
+ 
+#pj_tab_cnt .nav.nav-tabs li a{   font-size:15px; border:0px solid #f00; }
+
+ 
+
+ #project_year_cnt #yearTabs #myTabDrop1-contents.dropdown-menu li a,
+ #project_year_cnt #yearTabs .dropdown a.dropdown-toggle,
+ #project_year_cnt #yearTabs .dropdown a.dropdown-toggle span#cr_mi_year,
+ #project_year_cnt #yearTabs .dropdown a.dropdown-toggle span#cr_pr_year{  font-size:15px;  } 

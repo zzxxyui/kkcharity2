@@ -1,0 +1,292 @@
+
+ .lodingDiv{   
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+  /* Netscape */
+  -moz-opacity: 0.8;
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+  /* Good browsers */
+  opacity: 0.8;
+  /*background:#000; */width:100%; height:100%;
+  position:absolute; top:0; left:0;
+  background:#fff url(../images/loading.gif) no-repeat 50% 45%;
+  z-index:8000;
+}
+.lodingDiv p,
+.lodingDiv p{ padding:0 0 0 0; width:100%; text-align:center; color:#000;}   
+
+.modal-backdrop {background: none;}
+
+
+body{ min-width:320px;
+font-family:"Arial", "Lucida Grande", Helvetica, sans-serif;
+/*"Helvetica", Arial, sans-serif, "Lucida Grande"*/
+}
+
+.bg-grey{ background:#444; color:#fff}
+ 
+.text-white {    color: #fff ;}
+.text-red {    color: #f00;}
+.text-btn {
+    color: #0089b8;
+}
+ .text-grey{ color:#4e4e4e}
+ .text-lgrey{ color:#666}
+ .text-dgrey{ color:#222}
+ .text-black{ color:#000;}
+.text-primary {
+    color: #016081;
+}
+
+.text-sh-w {
+	text-shadow:0 0 4px #fff;
+}
+.text-sh-b {
+	text-shadow:0 0 4px #333;
+}
+.table.no-border td,
+.table.no-border th,
+.table.no-border{  border:0;} 
+
+.table.min-td td{ padding:0 0 8px 0 ;}
+.table.min-td2 td,
+.table.min-td2 th{ padding:5px 0 5px 0 ;}
+.table.min-td2 p  {  margin:0}
+
+.table.vm td{ vertical-align:middle}
+.table.vt td{ vertical-align:top}
+.table.home td{ font-size:16px;}
+
+.tf_upp{ text-transform: uppercase}
+.notf{ text-transform:none}
+.oneline{ white-space:nowrap;}
+.line{ text-decoration:underline}
+.fs18{
+    font-size: 18px;
+}
+
+
+.fs12{
+    font-size: 12px;
+}
+
+
+.fs14{    font-size: 14px;}
+.fs15 {    font-size: 15px;}
+.fs16 {    font-size: 16px;}
+.fs18 {    font-size: 18px;}
+.fs20 {    font-size: 20px;}
+.fs22 {    font-size: 22px;}
+.fs24 {    font-size: 24px;}
+.fs26 {    font-size: 26px;}
+.fs28 {    font-size: 28px;}
+.fs30 {    font-size: 30px;}
+.fs32 {    font-size: 32px;}
+.fs36 {    font-size: 36px;}
+.fs40 {    font-size: 40px;}
+.fs48 {    font-size: 48px;}
+
+
+
+
+.tb-fs16,
+.tb-fs16 th,
+.tb-fs16 td{  font-size: 16px;}
+
+
+.lh1{ line-height:1em;}
+.lh08{ line-height:0.8em;}
+.lh2{ line-height:2em;}
+.lh11{ line-height:1.1em;}
+.lh15{ line-height:1.5em;}
+.lh12{ line-height:1.2em;}
+.bold{ font-weight:bold}
+.nobold{ font-weight:normal}
+.noupp{ text-transform:none}
+
+
+html,
+body,
+b,
+span,
+li,
+td,
+a,
+p {
+  /*  font-size: 12px;*/
+   /* line-height: 1.3em;*/
+   
+line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
+line-height: 1.7em;
+}
+p.large {
+    font-size: 12px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+	text-decoration:none;
+}
+a:hover { cursor:pointer;
+}
+
+a {
+    color: #2daeda;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #2daeda;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
+.fz9{ font-size:70%;}
+.fz10{ font-size:80%;}
+.fz12{ font-size:90%;}
+.fz14{ font-size:100%;}
+.fz16{ font-size:110%;}
+.fz20{ font-size:130%;}
+
+.m0{ margin:0;}
+.ma0{ margin:0 auto;}
+.m5{ margin:5px;}
+.m10{ margin:10px;}
+.p0{ padding:0}
+.p5{ padding:5px}
+.p10{ padding:10px}
+.p20{ padding:20px}
+
+ .pb5{ padding-bottom:5px;}
+ .pb10{ padding-bottom:10px;}
+ .pb20{ padding-bottom:20px;}
+ 
+ .pt5{ padding-top:5px;}
+ .pt10{ padding-top:10px;}
+ .pt20{ padding-top:20px;}
+
+ .mb5{ margin-bottom:5px;}
+ .mb10{ margin-bottom:10px;}
+ .mb20{ margin-bottom:20px;}
+
+ .mt5{ margin-top:5px;}
+ .mt10{ margin-top:10px;}
+ .mt20{ margin-top:20px;}
+ .pos-rel{ position:relative}
+  /*----------------Form--------------*/
+  
+  .form-control.error{ border:1px solid #f00;}
+  #infoform select.form-control ,
+  #infoform input.form-control { width:auto;}
+  #infoform .form-control.error{ display:inline;   } 
+  #infoform   label.error{ display: block; color:#f00; margin:5px; } 
+  #infoform	.radio-cnt{ position:relative; width:auto}
+  #infoform	.radio-inline{ margin-right:20px}
+  #infoform	.radio-cnt label.error{ position:absolute; right:0; top:0;}
+  
+  #infoform	p,
+  #infoform	 div,
+  #infoform	{ font-size:16px} 
+  
+#csform  #infoform.appform input.form-control { width:320px;}
+#csform  #infoform.appform textarea{ width:320px;}
+ #csform  #infoform.appform	.radio-cnt{ position:relative; width:350px}
+  #infoform  #security_code{ width:80px;}
+  #csform #infoform #security_code{ width:80px;}
+ /*----------------Form--------------*/
+
+ 
+ /*---------------*/
+
+.ui-datepicker-title  .ui-datepicker-month ,
+.ui-datepicker-title  .ui-datepicker-year{ color:#444; font-weight:normal} 
+.ui-datepicker-header.ui-widget-header{ background:#00aeff; border:#00aeff; }
+.ui-datepicker-calendar a.ui-state-default{ color:#333}
+.ui-datepicker-calendar a.ui-state-default.ui-state-active{ background:#00aeff; color:#fff}
+
+/*---------------*/
+
+
+#navright,
+#navleft{-moz-box-shadow:0;
+-ms-box-shadow:0 ;
+-webkit-box-shadow:0;
+box-shadow:0 ; background:0;
+width:200px; height:50px;  
+}
+ 
+#navright{ bottom:0; margin-top:370px;	background:url(../images/navbtn.png) no-repeat  70px 100%;	}
+#navleft{ right:0; width:120px; left:auto; top:0; position:absolute; float:right;	background:url(../images/navbtn.png) no-repeat  70px 0;}
+ /*----------------Home slider--------------*/
+ .vertical .carousel-inner {
+  height: 100%;
+}/*
+.carousel-indicators{ width:20px; position:absolute; z-index:500; top:170px; left: auto; right:20px; height:120px;}
+.carousel-indicators li{ border:0; background:0; width:20px; height:20px;  
+   -webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+background:url(../images/bullets.png) no-repeat -1px 0;}
+.carousel-indicators li.active{width:20px; height:20px; background:url(../images/bullets.png) no-repeat 0 100%;}
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 100%;
+}
+
+.carousel.vertical .prev {
+  top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}​
+ */
+ /*----------------Home slider--------------*/
+ 
+ 
+ 
+ 
+ 
+ 

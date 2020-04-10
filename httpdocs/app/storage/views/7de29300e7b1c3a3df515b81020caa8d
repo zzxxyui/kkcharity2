@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title><?php echo $page_title; ?></title>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <?php echo $meta_data; ?>
+    <!-- Bootstrap -->
+    <?php echo HTML::style('static/css/bootstrap.min.css');; ?>
+    <?php echo HTML::style('static/css/reset.css');; ?>
+    <?php echo HTML::style('static/css/layout.css');; ?>
+    <?php echo HTML::style('static/css/override.css');; ?> 
+    <?php echo HTML::style('static/css/responsive.css');; ?> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+             <?php echo HTML::script('static/js/html5shiv.js');; ?> 
+    <![endif]-->
+    <!-- Custom Fonts -->
+    <?php echo HTML::style('static/css/font-awesome-4.5.0/css/font-awesome.min.css');; ?>
+  <?php echo $head_css_js; ?>
+    </head>
+    <body>
+    <div id="main">
+<?php echo $nav; ?>
+<?php echo $content; ?>
+<?php echo $footer; ?>
+</div>
+<?php echo HTML::script('static/js/jquery-1.11.0.js');; ?>
+ <?php echo HTML::script('static/js/jquery-migrate-1.0.0.js');; ?>
+ <?php echo HTML::script('static/js/jquery.easing.min.js');; ?>
+ <?php echo HTML::script('static/js/bootstrap.min.js');; ?> 
+ <?php echo $plus_css_js; ?>
+  <?php echo HTML::script('static/js/js.myjs.js');; ?> 
+    </body>
+</html>
